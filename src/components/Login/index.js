@@ -28,7 +28,9 @@ const Login = () => {
       <LoginFlex>
         <LanguageIcon />
 
-        <button onClick={signIn}>Sign in Google</button>
+        <button 
+        onClick={signIn}
+        >Sign in Google</button>
       </LoginFlex>
     </LoginContainer>
   );
