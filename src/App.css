@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #fca311;
+}
+
+.app {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+}
