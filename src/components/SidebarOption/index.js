@@ -10,14 +10,14 @@ const SidebarOption = ({ Icon, title, enterChannel, id, noneClick }) => {
   const enterChannelName = () => {
     const roomName = prompt("Digite o nome do canal");
 
-    // if (roomName) {
-    //   const capitalized = roomName[0].toUpperCase() + roomName.substr(1);
-    //   db.collection("rooms").add({
-    //     channelName: capitalized,
-    //   });
-    // } else {
-    //   return;
-    // }
+    if (roomName) {
+      const capitalized = roomName[0].toUpperCase() + roomName.substr(1);
+      db.collection("rooms").add({
+        channelName: capitalized,
+      });
+    } else {
+      return;
+    }
   };
 
   const enterChannelId = () => {
