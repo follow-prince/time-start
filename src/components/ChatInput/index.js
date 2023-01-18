@@ -35,7 +35,7 @@ const ChatInput = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         type="text"
-        placeholder="உங்கள் மனதில் தோன்றுவதை உள்ளிடவும் "
+        placeholder="மனதில் தோன்றுவதை உள்ளிடவும் "
       />
       <button onClick={send} style={{ display: "none" }}>
         Send

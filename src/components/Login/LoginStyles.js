@@ -4,7 +4,7 @@ export const LoginContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-color);
+  background: #4C4141;
   height: 100vh;
 `;
 export const LoginFlex = styled.div`

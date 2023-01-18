@@ -46,7 +46,7 @@ const Header = () => {
         <HeaderLogo>
           <Link to="/">
             <LanguageIcon />
-            <h2>Secret Channel</h2>
+            <h2>Secret ROOM</h2>
           </Link>
         </HeaderLogo>
         {screen > 768 ? (

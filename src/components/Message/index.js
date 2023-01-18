@@ -15,8 +15,8 @@ const Message = ({ message, username, profilePic, timestamp }) => {
           <h4>{username}</h4>
           <span>
             <SimpleDateTime
-              timeSeparator=":"
-              format="MYD"
+              timeSeparator="-"
+              format="DMY"
               showTime="1"
               showDate="0"
               meridians="1"
