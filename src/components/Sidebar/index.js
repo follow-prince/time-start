@@ -49,7 +49,7 @@ const Sidebar = ({ activeMenu }) => {
             <p>{user.username}</p>
           </span>
         </SidebarUser>
-        <Avatar src={user.profilePic} onClick={logout} />
+        <Avatar src={user.profilePic} />
       </SidebarUserContainer>
       <SidebarOptionsContainer>
         <SidebarOption noneClick Icon={<HomeIcon />} title="Home" />

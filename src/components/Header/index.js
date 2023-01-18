@@ -50,7 +50,7 @@ const Header = () => {
           </Link>
         </HeaderLogo>
         {screen > 768 ? (
-          <Avatar src={user.profilePic} onClick={logout} />
+          <Avatar src={user.profilePic} />
         ) : (
           <MenuIcon onClick={openMenu} />
         )}
