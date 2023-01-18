@@ -15,9 +15,9 @@ const ChatInput = () => {
     e.preventDefault();
 
     if (!input) {
-      return alert("Digite uma mensagem! :)");
+      return alert("உங்களுக்கு தோன்றுவதை பதிவிடவும்");
     } else if (!roomId) {
-      alert("Escolha um canal para enviar mensagens!! :)");
+      alert("Hello....ROOM  Select பண்ணவும்... ");
     } else if (roomId) {
       db.collection("rooms").doc(roomId.roomId).collection("messages").add({
         message: input,
@@ -35,7 +35,7 @@ const ChatInput = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         type="text"
-        placeholder="Write a menssage"
+        placeholder="உங்கள் மனதில் தோன்றுவதை உள்ளிடவும் "
       />
       <button onClick={send} style={{ display: "none" }}>
         Send

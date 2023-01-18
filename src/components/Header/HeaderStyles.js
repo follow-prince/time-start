@@ -9,7 +9,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 10px 7%;
-  background: var(--primary-color);
+  background: #9354A0;
 
   .MuiSvgIcon-root {
     color: #fff;

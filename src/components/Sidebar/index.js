@@ -43,7 +43,7 @@ const Sidebar = ({ activeMenu }) => {
     <SidebarContainer activeMenu={activeMenu}>
       <SidebarUserContainer>
         <SidebarUser>
-          <h4>Programadores</h4>
+          <h4>your Time Start</h4>
           <span>
             <CircleIcon />
             <p>{user.username}</p>
@@ -53,7 +53,7 @@ const Sidebar = ({ activeMenu }) => {
       </SidebarUserContainer>
       <SidebarOptionsContainer>
         <SidebarOption noneClick Icon={<HomeIcon />} title="Home" />
-        <SidebarOption Icon={<AddIcon />} title="Add Channel" />
+        <SidebarOption Icon={<AddIcon />} title="Add ROOM" />
         <SidebarChannelsContainer>
           {channels?.map((channel) => (
             <SidebarOption

@@ -5,7 +5,7 @@ export const SidebarContainer = styled.div`
   left: 0;
   height: 100%;
   width: 20vw;
-  background: var(--primary-color);
+  background: #4A3838;
   z-index: 999;
   transition: left 1s ease;
 

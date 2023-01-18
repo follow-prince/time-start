@@ -4,7 +4,7 @@ export const ChatsContainer = styled.div`
   margin-left: 20vw;
   width: 100%;
   height: 100%;
-  background: #f8edeb;
+  background: #9A9090;
 
   overflow-y: scroll;
 

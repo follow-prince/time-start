@@ -8,7 +8,7 @@ const SidebarOption = ({ Icon, title, enterChannel, id, noneClick }) => {
   const dispatch = useDispatch();
 
   const enterChannelName = () => {
-    const roomName = prompt("Digite o nome do canal");
+    const roomName = prompt("Create Room");
 
     if (roomName) {
       const capitalized = roomName[0].toUpperCase() + roomName.substr(1);
